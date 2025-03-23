@@ -76,3 +76,5 @@ console.log(value)
 
 console.log("1 \t 1 \t 1 \t 1 \n2 \t 1 \t");
 
+
+console.log(typeof ('2'*'6'+"34"));

@@ -78,3 +78,12 @@ console.log("1 \t 1 \t 1 \t 1 \n2 \t 1 \t");
 
 
 console.log(typeof ('2'*'6'+"34"));
+
+
+function sayHello() {
+    console.log("Hello Bro")
+}
+
+setInterval(sayHello,500000000);
+
+setTimeout(sayHello,1000);

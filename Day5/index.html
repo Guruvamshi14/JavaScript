@@ -1,0 +1,45 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" id = "mass" placeholder="Mass in Kilo Grams" />
+    <button>Submit</button>
+    <p></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document Object Model:30 Days Of JavaScript</title>
+</head>
+
+<body>
+    <h1>Giving feedback using blur event</h1>
+
+    <input type="text" id="myInput" placeholder="Click me!" />
+
+<script>
+  const input = document.getElementById('myInput');
+
+  input.addEventListener('focus', function() {
+    console.log("You're focusing on me!");
+  });
+
+  input.addEventListener('blur', function() {
+    console.log("Hey! You left me.");
+  });
+</script>
+
+</body>
+
+</html>
